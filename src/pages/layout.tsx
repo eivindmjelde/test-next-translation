@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { Inter } from "next/font/google";
+import { GoogleTranslate } from "@/components/GoogleTranslate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       Current locale: {defaultLocale}
       <p>ENDRING</p>
       {children}
+      {defaultLocale?.includes("en") && <GoogleTranslate />}
     </main>
   );
 }
