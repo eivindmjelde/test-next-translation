@@ -14,11 +14,11 @@ const nextConfig = {
     // Note: subdomains must be included in the domain value to be matched e.g. "fr.example.com".
     domains: [
       {
-        domain: "greenskyaccident.no",
+        domain: "www.greenskyaccident.no",
         defaultLocale: "nb-NO",
       },
       {
-        domain: "bananabeatz.dev",
+        domain: "www.bananabeatz.dev",
         defaultLocale: "en-US",
       },
     ],
